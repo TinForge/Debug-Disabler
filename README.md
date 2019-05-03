@@ -1,10 +1,10 @@
 # Debug-Disabler
 
-### Non-destructively disables Debug from being called in the editor console and in the build.
+##### Non-destructively disables Debug from being called in the editor console and in the build.
 
 ### Instructions
 
-Import script. The script can be placed in any folder.
+Import script into your project. The script can be placed in any folder.
 
 This script stops Debug from being called. This script overrides Unity's Debug class and prevents them from being called via __Platform Dependent Compilation__. This is non-destructive, meaning none of your project is altered.
 
